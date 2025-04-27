@@ -1,0 +1,13 @@
+git init
+git config --global user.name "JoaoRobert0"
+git config --global user.email devjoaoroberto@gmail.com
+nano sobre-mim.txt
+git status
+git add sobre-mim.txt
+git commit -m "primeiro commit"
+git remote add origin https://github.com/JoaoRobert0/curso-git-embarcatech.git
+git push -u origin main
+nano lista-de-comandos.txt
+git add lista-de-comandos.txt
+git commit -m "segundo commit"
+git push
